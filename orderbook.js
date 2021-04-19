@@ -98,7 +98,8 @@ exports.init = (opts) => {
       }
 
       //  keep global chain
-      state = data;
+      const { payload } = data;
+      state = payload;
     });
 
   }, _opts.syncInterval);
