@@ -1,0 +1,22 @@
+{
+  "name": "bitfinix-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cbq": "0.0.1",
+    "grenache-nodejs-http": "^0.7.12",
+    "grenache-nodejs-link": "^0.7.12",
+    "grenache-nodejs-ws": "^0.7.9",
+    "lodash": "^4.17.21",
+    "uuidv4": "^6.2.7",
+    "uws": "^200.0.0"
+  }
+}
